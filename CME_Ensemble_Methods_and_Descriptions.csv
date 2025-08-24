@@ -1,0 +1,6 @@
+Method,Description
+Auto-Tuned Statistical Thresholding,Detects anomalies by auto-selecting statistical thresholds (z-score & percentile) for feature spikes.
+Physics-Based Rule Detection,"Applies physically meaningful rules: high speed >500 km/s, density >5 cm⁻³, and flux >1e7."
+Isolation Forest (Unsupervised ML),Applies anomaly detection on multivariate feature space using Isolation Forest algorithm.
+Composite CME Score,"Combines weighted feature scores (flux, speed, density, thermal) into one composite metric."
+Ensemble Flag Logic,"Combines results from stats, physics, and ML; flags event if 2 or more methods agree."
