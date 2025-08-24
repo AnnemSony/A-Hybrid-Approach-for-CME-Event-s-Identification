@@ -26,7 +26,7 @@ Coronal Mass Ejections (CMEs) are among the most powerful eruptive events in the
 
 ## Requirements
 
-- Python 3.x
+- Python 3.9
 - Jupyter Notebook
 - scikit-learn
 
